@@ -1,0 +1,58 @@
+a:link {
+    color:red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:yellow;
+}
+
+#contact{
+    background-color: lightblue;
+    color: darkred;
+}
+
+#standards{
+    background-color: greenyellow;
+    color: purple;
+}
+
+#gpa{
+    background-color: orange;
+    color: red;
+}
+
+.course{
+    background-color: lightgreen;
+    color: brown;
+}
+
+nav{
+    background-color: bisque;
+    color: darkred;
+}
+
+p{
+    background-color: lightgray;
+    color: forestgreen;
+}
+
+
+h1{
+   color: blueviolet; 
+}
+
+h2{
+    color: tomato; 
+}
+
+h3{
+    color: violet;
+}
+
+h4{
+    color: brown;
+}
