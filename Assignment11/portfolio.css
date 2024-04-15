@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+  font-family: fenwick, sans-serif;
+}
+
+body {
+  
+  background: rgb(55,55,56);
+background:linear-gradient(0deg, rgba(16,16,17,1) 0%, rgba(36,12,73,1) 50%, rgba(16,16,17,1) 100%)no-repeat;
+height: 100%;
+margin-bottom: 0;
+}
+
+#wrapper {
+  margin: 24px auto;
+  margin-bottom: 0;
+  width: 1200px;
+  
+  padding: 24px;
+  padding-bottom: 0;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  
+  
+}
+.verticalLine {
+  border-left: 4px solid rgb(100, 14, 209);
+  margin-left: 100px;
+  margin-top: 100px;
+  
+}
+
+nav {
+  grid-column: span 12;
+  margin: 0px;
+}
+
+nav ul {
+padding-inline-start: 0;
+
+margin-top: 0;
+margin-bottom: 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  
+}
+
+nav li a {
+  scroll-behavior: smooth;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display:block;
+  padding: 10px;
+  
+  }
+
+nav li a:hover {
+  color: rgb(100, 14, 209);
+}
+
+.marginRight {
+  margin-right: 750px;
+}
+
+h1 {
+  grid-column: span 12;
+  padding-left: 50px;
+  padding-bottom: 400px;
+
+}
+h2 {
+  grid-column: span 12;
+  padding-left: 50px;
+}
+
+h2:hover{
+  color: rgb(100, 14, 209);
+}
+
+#nohover:hover{
+  color:rgb(100, 14, 209);
+}
+
+h3 {
+  margin-left: 75px;
+  margin-right: 70px;
+}
+
+#qualifications {
+  padding-bottom: 100px;
+  
+}
+
+#qualifications p{
+  display: inline-block;
+  grid-column: span 2;
+  width: 200px;
+  text-align: center;
+  margin-left: 75px;
+}
+
+.purple{
+  color: rgb(100, 14, 209);
+}
+
+main {
+  grid-column: span 12;
+}
+
+main h3 {
+  display: inline-block;
+  grid-column: span 12;
+  padding-left: 50px;
+}
+
+.box {
+  width: 330px;
+  height: 189px;
+      border: 3px solid rgb(30, 30, 30);
+      border-radius: 20px;
+      background-color: rgb(47, 47, 47);
+      padding: 0px;
+      margin: 0px;
+      margin-bottom: 100px;
+      margin-left: 50px;
+      margin-right: 500px;
+      display: inline-block;
+      text-align: center;
+vertical-align: middle;
+line-height: 189px
+
+}
+
+.date {
+  color: rgb(47, 47, 47);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#footerBox{
+  
+  
+  grid-column: span 2;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 96px;
+}
+
+footer {
+  grid-column: span 12;
+margin: 0;
+border-top: 4px solid rgb(100, 14, 209);
+}
+
+footer p {
+  display: inline-block;
+  
+}
+
+#footerBody {
+
+  grid-column: span 7;
+  display: inline-block;
+  border-left: 4px solid rgb(100, 14, 209);
+  background-color: rgb(35, 0, 91);
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 860px;
+  
+}
+
+footer img {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+footer i {
+  display: inline-block;
+font-size: 40px;
+  margin-left: 20px;
+}
