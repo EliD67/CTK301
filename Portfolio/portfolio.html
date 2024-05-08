@@ -1,3 +1,4 @@
+<!-- NOTE All errors thrown by the validator are caused from the implimentation of the accordion menues, specifically the labels for the states. I'm not sure how to fix them, I apologize!-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -27,26 +28,80 @@
 		  <main>
 		
 			<div class = "verticalLine">
-				<h1>Hi, My name is Eli, <br> and I develop <span class = "purple">GAMES</span><!-- Ideally this purple text would cycle though my areas of interest like game design, level design, art etc. --> </h1>
-				<h2 id = "projects">PROJECT 1 <span class = "date"> 03/20/24</span></h2>
-				<iframe class = "box" src="https://editor.p5js.org/Eli_67/full/09dAQSQtG"></iframe>
-				<h2>P5Js Javascript <span class = "date"> 02/15/24</span></h2>
+				<label for="state5">
+				<h1 class = button></label>Hi, My name is <span class = "purple">Eli</span>, <br> I design and develop games <br>and interactive experiences.<!-- Ideally this text would cycle though my areas of interest like game design, level design, art etc. --> </h1>
+				<img id="selfie" src="Eli.jpg" alt="A picture of Eli!">
+				<input type="checkbox" id="state5" hidden>
+				<div class="content" id="pro5">
+				 <div class="inner">
+					<p>I have experience in game design, level design, environment design, programming, and user experience. I'm also passionate about generative art and character design. Unreal Engine is my preferred engine to develop with. I also have developed projects in the Unity engine.</p>
+				  </div>
+				 </div>
+				<label for="state">
+				<h2 id="projects" class = button>Unreal Engine </label></h2>
+				<div id="carousel3" class="f-carousel">
+					<div class="f-carousel__slide"><img class = "Cbox" src="unrealGif.gif" alt="Physics objects rolling"></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="unreal1.jpg" alt="An ariel view of a level"></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="unreal2.png" alt="Unreal Engine blueprint code"></div>
+				</div>
+				<input type="checkbox" id="state" hidden>
+				<div class="content" id="pro1">
+				 <div class="inner">
+					<p>Unreal engine is a powerful game engine and my personal favourite engine to work with. Blueprints(visual code), sequencing, C#, textures and procedural generation are areas I the most experience with. In UE5, I made a physics based climbing game shown above.</p>
+				  </div>
+				 </div>
+				<label for="state2">
+				<h2 class = button>Javascript (P5Js) </label></h2>
 				<div id="myCarousel" class="f-carousel">
-					<div class="f-carousel__slide"><img class = "Cbox" src="particles.gif"></div>
-					<div class="f-carousel__slide"><img class = "Cbox" src="Project3.gif"></div>
+					<div class="f-carousel__slide"><iframe class = "Cbox" src="https://editor.p5js.org/Eli_67/full/sRnDs9iyG"></iframe></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="Project2.gif" alt="A cool audio visualizer!"></div>
 					<div class="f-carousel__slide"><iframe class = "Cbox" src="https://editor.p5js.org/Eli_67/full/_b_o1hQur"></iframe></div>
 				</div>
-				<h2>PROJECT 3 <span class = "date"> 01/25/24</span></h2>
-				<img class = "box" SRC="Project3.gif" alt="A cool audio visualizer!">
-				<h2>PROJECT 4 <span class = "date"> 11/12/23</span></h2>
-				<img class = "box" SRC="Project2.gif" alt="A cool audio visualizer!">
+				<input type="checkbox" id="state2" hidden>
+				<div class="content" id="pro2">
+					<div class="inner">
+						<p>P5Js is a Javascript library that was used to the projects above. Some projects I've made include: <br>
+							Particle System <br>
+							Weather app <br>
+							Gyro controller <br>
+							Audio visualizer <br>
+					</div>
+					</div>
+					<label for="state3">
+				<h2 class = button>Unity </label></h2>
+				<div id="carousel2" class="f-carousel">
+					<div class="f-carousel__slide"><img class = "Cbox" src="unityMountain.png" alt="A mountain"></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="unityAi.gif" alt="An AI example gif"></div>
+				</div>
+				<input type="checkbox" id="state3" hidden>
+				<div class="content" id="pro3">
+				 <div class="inner">
+					<p>Immersion is a massive part of digital experiences. I believe well crafted environments and interactive NPC characters are a crucial part of immersing a user. Heightmaps are my favourite way of making large and beautiful looking terrains, like the mountain shown above. I also created an NPC which walks to randomly selected waypoints or the player's location, the foundation for an interactive game character. </p>
+				  </div>
+				 </div>
+				 <label for="state4">
+				<h2 class = button>Game Design </label></h2>
+				<div id="carousel4" class="f-carousel">
+					<div class="f-carousel__slide"><img class = "Cbox" src="map.jpg" alt="A fantasy map"></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="quadlevel_1.jpg" alt="A map inspired by the ISU quad!"></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="quadlevel_2.jpg" alt="Points of interest"></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="layout.jpg" alt="The layout for a dungeon"></div>
+					<div class="f-carousel__slide"><img class = "Cbox" src="miro.png" alt="A flowchart"></div>
+				</div>
+				<input type="checkbox" id="state4" hidden>
+				<div class="content" id="pro4">
+				 <div class="inner">
+					<p>I heavily utilize sketches, maps and design docs to help me organize my ideas before starting development. This always ends up saving time and keeps me on track towards the goal of the project. Flowcharts are also an invaluable tool for me when planning game mechanics and gameplay loops.  </p>
+				  </div>
+				 </div>
 				<h2 id="nohover">My Qualifications</h2>
 				<h3>Education</h3>
 				<h3>Software</h3>
 				<h3>Languages</h3>
+				<!-- Display Inline Grid is not working for these paragraphs, I'm unsure what is overriding the setting in CSS -->
 				<div id = "qualifications">
-				<p>AS Comp Sci Heartland CC <br> BA Game  Design Illinois State University </p>
-				<p>Unreal Engine <br>Unity <br>Photoshop <br>P5Js </p>
+				<p>BA Game  Design Illinois State University<br>AS Comp Sci Heartland CC</p>
+				<p>Unreal Engine <br>Unity <br>P5Js <br>Photoshop <br> Illustrator</p>
 				<p>C++ <br>Javascript <br>html <br>css <br> Blueprint</p>
 				</div>
 			</div>
@@ -70,6 +125,20 @@
 		const container = document.getElementById("myCarousel");
     	const options = { infinite: true };
     	new Carousel(container, options);
+
+		const container2 = document.getElementById("carousel2");
+    	const options2 = { infinite: true };
+    	new Carousel(container2, options2);
+
+		const container3 = document.getElementById("carousel3");
+    	const options3 = { infinite: true };
+    	new Carousel(container3, options3);
+
+		const container4 = document.getElementById("carousel4");
+    	const options4 = { infinite: true };
+    	new Carousel(container4, options4);
+
+		Fancybox.bind("[data-fancybox]", {});
 	 </script>
 </body>
 </html>
